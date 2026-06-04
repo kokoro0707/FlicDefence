@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - DestroyZone
+  - Ground
+  - Missile
   layers:
   - Default
   - TransparentFX
