@@ -343,79 +343,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597828279}
   m_CullTransparentMesh: 1
---- !u!1001 &680307826
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8479035
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4461367
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3866217
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.1840205
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921668474914284967, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5308991357698121480, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7482474246939452052, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
-      propertyPath: m_Name
-      value: Playerimage
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
 --- !u!1 &723785121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7482474246939452052, guid: 64887a333c8d8634aaa0636bd6977d10, type: 3}
@@ -660,7 +587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: 849}
+  m_AnchoredPosition: {x: 679, y: 1552}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048163968
@@ -811,10 +738,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1590,7 +1517,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1166670745}
   - {fileID: 1873558504}
-  - {fileID: 680307826}
   - {fileID: 528208904}
   - {fileID: 7471640049877976936}
   - {fileID: 1445981240}

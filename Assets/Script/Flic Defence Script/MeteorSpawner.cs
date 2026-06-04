@@ -44,7 +44,8 @@ public class MeteorSpawner : MonoBehaviour
 
     void SpawnMeteor()
     {
-
+        float scale = Random.Range(0.7f, 1.5f);
+        transform.localScale = Vector3.one * scale;
         float x = Random.Range(-spawnXRange, spawnXRange);
 
         Vector2 pos = new Vector2(x, spawnY);

@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 8957324059118975939, guid: 9bb5f45a78521b34dbfb08f5fe692638, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Meteor
   scorePoint: 10
+  exlosionPrehab: {fileID: 8750551643183646735, guid: 97666cb24232699458b90dd74b602be2, type: 3}
 --- !u!114 &8692359132565316907
 MonoBehaviour:
   m_ObjectHideFlags: 0

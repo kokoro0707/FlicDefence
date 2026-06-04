@@ -3,7 +3,7 @@ public class Meteor : MonoBehaviour
 {
 
     public int scorePoint = 10;
-
+    public GameObject exlosionPrehab;
 
 
     void OnTriggerEnter2D(Collider2D other)
@@ -12,6 +12,7 @@ public class Meteor : MonoBehaviour
 
         if (other.CompareTag("Missile"))
         {
+            Instantiate(exlosionPrehab, transform.position, Quaternion.identity);
 
             GameManager2.instance.AddScore(scorePoint);
 

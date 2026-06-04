@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: ca5d79ac6da6a2d4ca73831cc13d2396
+  - enabled: 1
+    path: Assets/Scenes/FlicDefence.unity
+    guid: 66dfd787c664086429a770bde821fe14
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
